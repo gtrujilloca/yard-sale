@@ -1,0 +1,63 @@
+:root {
+  --white: #FFF;
+  --black: #000;
+  --very-light-pink: #C7C7C7;
+  --text-input-field: #F7F7F7;
+  --hospital-green: #ACD9B2;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  /* font-size: 62.5%; */
+}
+
+.mobile-menu {
+  padding: 24px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--back);
+  font-weight: bold;
+  /* margin-bottom: 24px; */
+}
+
+.mobile-menu ul {
+  padding: 0;
+  margin: 24px 0 0;
+  list-style: none;
+}
+
+.mobile-menu ul li{
+  margin-bottom: 24px;
+}
+
+.mobile-menu ul li .email {
+  font-size: var(--sm);
+  font-weight: 300;
+}
+
+.mobile-menu ul:nth-child(1) {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu ul:last-child {
+  position: absolute;
+  bottom: 30px;
+}
+
+.mobile-menu ul:last-child li:first-child{
+  margin-bottom: 4px;
+}
+
+
+.mobile-menu .sign-out {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+}
